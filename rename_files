@@ -1,0 +1,6 @@
+#!/bin/bash
+j=0;
+for i in *.jpg;
+do let j+=1;
+mv $i file$j.jpg ;
+done
